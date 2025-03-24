@@ -42,15 +42,11 @@ words.pkl and classes.pkl: Preprocessed data used for prediction.
 
 ### Command Line Interface (CLI)
 
-To run the chatbot in the terminal:
-
-**python chatbot.py**
+To run the chatbot in the terminal: **python chatbot.py**
 
 ### Graphical User Interface (GUI)
 
-To launch the GUI version:
-
-**python app.py**
+To launch the GUI version: **python app.py**
 
 ## Training the Model
 
