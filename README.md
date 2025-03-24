@@ -1,4 +1,4 @@
-# 🤖 Chatbot Project
+# 🤖 AI-powered Customer Assistance System for Shopping Malls
 
 An intelligent AI-powered chatbot designed to assist customers in shopping malls seamlessly. Built using Python and TensorFlow, this chatbot understands user queries, predicts their intent using a trained deep learning model, and delivers helpful responses instantly. With an intuitive Tkinter-based interface, it enhances the shopping experience by providing store directions, product information, promotions, and general assistance, making mall navigation effortless and more enjoyable.
 
