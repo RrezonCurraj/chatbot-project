@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "pershendetje",
+      "patterns": [
+        "Hi",
+        "hej",
+        "Si jeni",
+        "A ka dikush aty?",
+        "Përshëndetje",
+        "Mirëdita",
+        "Si jeni",
+        "Hey",
+        "përshëndetje"
+      ],
+      "responses": [
+        "Përshëndetje!, Miresevini ne Prishtina Mall",
+        "Mirë të ju shoh përsëri!",
+        "Tungjatjeta, si mund të ju ndihmoj?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "lamtumire",
+      "patterns": [
+        "cya",
+        "Shihemi më vonë",
+        "Mirupafshim",
+        "Po largohem",
+        "Ditën e mirë",
+        "naten e mire","faleminderit",
+        "tung",
+        "cao",
+        "shihemi",
+        "kaloni mire",
+        "mirupafshim"
+      ],
+      "responses": [
+        "Është e trishtueshme që ju shikoj të shkoni :(",
+        "shihemi më vonë",
+        "Kaloni nje dite te mire ne Prishtina Mall",
+        "Mirupafshim!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "info_qender_tregtare",
+      "patterns": [
+        "Më tregoni për qendrën tregtare",
+        "Çfarë ka në qendër?",
+        "qfar mund te beje ketu",
+        "Fasilitete të qendrës tregtare",
+        "Çfarë dyqane ka?"
+      ],
+      "responses": [
+        "Prishtina Mall ofron një gamë të gjerë dyqanesh, argëtimi dhe mundësi për ngrenie. Shihni faqen tonë zyrtare për ngjarjet dhe udhëzuesin e dyqaneve të fundit."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "info_website",
+      "patterns": [
+        "Më tregoni websiten",
+        "cili eshte website juaj?",
+        "website",
+        "vebsajt",
+        "cili eshte vebsajti juaj",
+        "a keni website?"
+      ],
+      "responses": ["mund te na gjeni tek : prishtinamall.com"],
+      "context_set": ""
+    },
+    {
+      "tag": "oraret_e_dyqaneve",
+      "patterns": [
+        "Cilat janë oraret e qendrës tregtare?",
+        "oraret",
+        "kur jan te hapura","ne sa mbyllet","deri kur punon",
+        "Kur hapet qendra tregtare?",
+        "Ora e mbylljes",
+        "Oraret operative"
+      ],
+      "responses": [
+        "Qendra jonë është e hapur nga 7:00 deri në 23:00 nga e Hena deri te Shtunen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "info_parkim",
+      "patterns": [
+        "A ka vend parkimi?",
+        "ku ka parking ",
+        "Ku mund ta parkoj?",
+        "parking",
+        "makina"
+      ],
+      "responses": [
+        "Po, kemi hapësirë të mjaftueshme parkimi në afërsi të hyrjes së qendrës. Kënaquni vizitën tuaj!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rekomandim_restoranti",
+      "patterns": [
+        "Mund të rekomandoni një restorant të mirë?",
+        "Ku mund të ha diçka?",
+        "Restaurant",
+        "darka",
+        "dreke",
+        "Vendi më i mirë për drekë",
+        "ku munde te ha darke",
+        "ku mund te ha dreke","darkoj","drekoj",
+        "Rekomandime restoranti"
+      ],
+      "responses": [
+        "Sigurisht! Kemi rekomanduar të provoni mishin ne StakeHouse, i vendosur në katin e 2 ne zonen C. Ata ofrojnë kuzhinë shumë të shijshme tajlandeze."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "oraret_e_ngjarjeve",
+      "patterns": [
+        "Çfarë ngjarje po ndodhin sot?",
+        "Promotime speciale?",
+        "diqka speciale?",
+        "speciale?","qfar evente keni sot","cilat evente jan sonte","evente","eventet",
+        "ngjarje",
+        "Ngjarje të ardhshme"
+      ],
+      "responses": [
+        "Kontrolloni kalendarin tonë të ngjarjeve në faqen zyrtare për informacionin më të fundit në lidhje me promotime, ngjarje speciale dhe argëtim që po ndodh në qendër."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kalendari_i_ngjarjeve",
+      "patterns": [
+        "ku gjendet kalendari i ngjarjeve?",
+        "kalendari",
+        "ku mund ta shikoj kalendarin"
+      ],
+      "responses": [
+        "kalendari i ngjarjeve eshte ne qdo kat te Prishtina mallit perball ashencorit"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "informacion_tualet",
+      "patterns": [
+        "ku gjendet tualeti",
+        "ku eshte tualeti",
+        "ku gjendet wc",
+        "Tualeti",
+        "ku mund ta gjej wc",
+        "ku mund ta gjej Tualetin"
+      ],
+      "responses": [
+        "Tualetin mund ta gjendni ne qdo kat ne anen e djathte "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "gjetja_dhe_humbja",
+      "patterns": [
+        "kam humbe diqka, mund te me ndihmoni?",
+        "kam humbur nje produkt",
+        "Artikull i humbur",
+        "Gjërat e humbura",
+        "me ka humbur telefoni",
+        "te humbura",
+        "gjera te humbura "
+      ],
+      "responses": [
+        "Kemi një departament të veçantë për gjetje dhe humbje. Ju lutemi vizitoni tavolinën e shërbimit ndaj klientit, dhe ata do t'ju ndihmojnë të gjeni të dhënat e humbura."
+      ],
+      "context_set": ""
+    }
+  ]
+}
+
