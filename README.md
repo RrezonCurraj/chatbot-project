@@ -30,15 +30,15 @@ nltk.download('wordnet')
 ```
 ## 📂 Files Overview
 
-chatbot.py: Core chatbot logic for handling user input, intent prediction, and response generation.
+**chatbot.py:** Core chatbot logic for handling user input, intent prediction, and response generation.
 
-app.py: Tkinter-based GUI application for the chatbot.
+**app.py:** Tkinter-based GUI application for the chatbot.
 
-intents.json: Defines various intents and corresponding responses.
+**intents.json:** Defines various intents and corresponding responses.
 
-chatbotmodel.h5: Trained deep learning model for intent classification.
+**chatbotmodel.h5:** Trained deep learning model for intent classification.
 
-words.pkl and classes.pkl: Preprocessed data used for prediction.
+**words.pkl and classes.pkl:** Preprocessed data used for prediction.
 
 ## ▶️ Running the Chatbot
 
