@@ -1,8 +1,8 @@
-# Chatbot Project
+# 🤖 Chatbot Project
 
 This is a simple AI-powered chatbot built using Python, TensorFlow, and Tkinter for the GUI. The chatbot processes user input, predicts the intent using a trained deep learning model, and provides responses accordingly.
 
-## Features
+## 🚀 Features
 
 Uses NLP techniques for text processing
 
@@ -12,21 +12,23 @@ GUI built with Tkinter
 
 Supports multiple intents with varied responses
 
-## Installation
+## 🛠 Installation
 
 ### Prerequisites
 
 Make sure you have Python installed. You can install the required dependencies using:
 
+```bash
 pip install numpy tensorflow nltk pickle-mixin
+```
 
 Additionally, download the NLTK resources:
-
+```bash
 import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
-
-## Files Overview
+```
+## 📂 Files Overview
 
 chatbot.py: Core chatbot logic for handling user input, intent prediction, and response generation.
 
@@ -38,22 +40,25 @@ chatbotmodel.h5: Trained deep learning model for intent classification.
 
 words.pkl and classes.pkl: Preprocessed data used for prediction.
 
-## Running the Chatbot
+## ▶️ Running the Chatbot
 
 ### Command Line Interface (CLI)
-
-To run the chatbot in the terminal: **python chatbot.py**
+```bash
+To run the chatbot in the terminal: python chatbot.py
+```
 
 ### Graphical User Interface (GUI)
 
-To launch the GUI version: **python app.py**
+```bash
+To launch the GUI version: python app.py
+```
 
 ## Training the Model
 
 If you need to retrain the chatbot, ensure you have a script that processes the intents.json file, tokenizes text, and trains a neural network. You can create a script like train.py for this purpose.
 
 ## Repository Structure
-
+```bash
 chatbot-project/
 
 │-- chatbot.py
@@ -72,6 +77,7 @@ chatbot-project/
 
 │-- .gitignore
 
+```
 ## .gitignore File
 
 To avoid pushing unnecessary files, create a .gitignore file and add:
