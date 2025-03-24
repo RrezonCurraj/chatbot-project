@@ -43,14 +43,18 @@ nltk.download('wordnet')
 ## ▶️ Running the Chatbot
 
 ### Command Line Interface (CLI)
+
+To run the chatbot in the terminal:
 ```bash
-To run the chatbot in the terminal: python chatbot.py
+python chatbot.py
 ```
 
 ### Graphical User Interface (GUI)
 
+
+To launch the GUI version:
 ```bash
-To launch the GUI version: python app.py
+python app.py
 ```
 
 ## Training the Model
